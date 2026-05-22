@@ -35,7 +35,7 @@ void add_to_history(List header, WebPage *e) {
     temp->next = newNode;        // Nối xuôi Node cuối cũ sang Node mới
 }
 
-//* Chức năng: Duyệt toàn bộ danh sách từ đầu đến cuối và in lịch sử ra màn hình theo dạng bảng.
+//* Chức năng: Duyệt toàn bộ danh sách từ đầu đến cuối và in lịch sử ra màn hình theo dạng bảng..
 void print_history(List header) {
     Position temp = header->next; // Bỏ qua Node header vì data của nó là NULL
     //! Thắc mắc: Nếu lịch sử trống (temp == NULL), bảng vẫn in ra tiêu đề trống. Nên có một dòng kiểm tra để báo "[!] Lich su trống" thì giao diện sẽ chuyên nghiệp hơn.
