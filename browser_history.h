@@ -65,4 +65,4 @@ void clear_forward(Position current);
  */
 void print_history(List header);
 
-#endif // Kết thúc BROWSER_HISTORY_H
+#endif
